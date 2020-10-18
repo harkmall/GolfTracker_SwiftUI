@@ -3,23 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A771D81D253B3D2100C600A6 /* GolfTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D81C253B3D2100C600A6 /* GolfTrackerApp.swift */; };
-		A771D81F253B3D2100C600A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D81E253B3D2100C600A6 /* ContentView.swift */; };
+		A771D81F253B3D2100C600A6 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D81E253B3D2100C600A6 /* StatsView.swift */; };
 		A771D821253B3D2400C600A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A771D820253B3D2400C600A6 /* Assets.xcassets */; };
 		A771D824253B3D2400C600A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A771D823253B3D2400C600A6 /* Preview Assets.xcassets */; };
+		A771D82F253B4C0300C600A6 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D82E253B4C0300C600A6 /* StatsViewModel.swift */; };
+		A771D833253BB26700C600A6 /* GolfCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D832253BB26700C600A6 /* GolfCourse.swift */; };
+		A771D839253BB44200C600A6 /* Scorecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D838253BB44200C600A6 /* Scorecard.swift */; };
+		A771D83C253BB53500C600A6 /* ResponseWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D83B253BB53500C600A6 /* ResponseWrapper.swift */; };
+		A771D840253BB61D00C600A6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D83F253BB61D00C600A6 /* Networking.swift */; };
+		A771D843253BB7E000C600A6 /* CLLocationCoordinate2D+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D842253BB7E000C600A6 /* CLLocationCoordinate2D+Codable.swift */; };
+		A771D84F253BBFB400C600A6 /* NetworkingSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D84E253BBFB400C600A6 /* NetworkingSecrets.swift */; };
+		A771D854253BC35800C600A6 /* CourseSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D853253BC35800C600A6 /* CourseSearch.swift */; };
+		A771D857253BC3F300C600A6 /* CourseSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D856253BC3F300C600A6 /* CourseSearchViewModel.swift */; };
+		A771D886253BD92F00C600A6 /* AWSSigner in Frameworks */ = {isa = PBXBuildFile; productRef = A771D885253BD92F00C600A6 /* AWSSigner */; };
+		A771D88C253BDD6C00C600A6 /* URLRequest+AWSSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D88B253BDD6C00C600A6 /* URLRequest+AWSSigning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A771D819253B3D2100C600A6 /* GolfTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A771D81C253B3D2100C600A6 /* GolfTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfTrackerApp.swift; sourceTree = "<group>"; };
-		A771D81E253B3D2100C600A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A771D81E253B3D2100C600A6 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		A771D820253B3D2400C600A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A771D823253B3D2400C600A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A771D825253B3D2400C600A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A771D82E253B4C0300C600A6 /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+		A771D832253BB26700C600A6 /* GolfCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourse.swift; sourceTree = "<group>"; };
+		A771D838253BB44200C600A6 /* Scorecard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scorecard.swift; sourceTree = "<group>"; };
+		A771D83B253BB53500C600A6 /* ResponseWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseWrapper.swift; sourceTree = "<group>"; };
+		A771D83F253BB61D00C600A6 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		A771D842253BB7E000C600A6 /* CLLocationCoordinate2D+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Codable.swift"; sourceTree = "<group>"; };
+		A771D84E253BBFB400C600A6 /* NetworkingSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingSecrets.swift; sourceTree = "<group>"; };
+		A771D853253BC35800C600A6 /* CourseSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSearch.swift; sourceTree = "<group>"; };
+		A771D856253BC3F300C600A6 /* CourseSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSearchViewModel.swift; sourceTree = "<group>"; };
+		A771D88B253BDD6C00C600A6 /* URLRequest+AWSSigning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+AWSSigning.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A771D886253BD92F00C600A6 /* AWSSigner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +75,13 @@
 			isa = PBXGroup;
 			children = (
 				A771D81C253B3D2100C600A6 /* GolfTrackerApp.swift */,
-				A771D81E253B3D2100C600A6 /* ContentView.swift */,
-				A771D820253B3D2400C600A6 /* Assets.xcassets */,
+				A771D852253BC34700C600A6 /* Course Search */,
+				A771D84D253BBF6B00C600A6 /* Secrets */,
+				A771D835253BB26A00C600A6 /* Model Objects */,
+				A771D82D253B4BED00C600A6 /* Stats View */,
+				A771D83E253BB60B00C600A6 /* Networking */,
 				A771D825253B3D2400C600A6 /* Info.plist */,
+				A771D820253B3D2400C600A6 /* Assets.xcassets */,
 				A771D822253B3D2400C600A6 /* Preview Content */,
 			);
 			path = GolfTracker;
@@ -67,6 +93,52 @@
 				A771D823253B3D2400C600A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A771D82D253B4BED00C600A6 /* Stats View */ = {
+			isa = PBXGroup;
+			children = (
+				A771D81E253B3D2100C600A6 /* StatsView.swift */,
+				A771D82E253B4C0300C600A6 /* StatsViewModel.swift */,
+			);
+			path = "Stats View";
+			sourceTree = "<group>";
+		};
+		A771D835253BB26A00C600A6 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A771D832253BB26700C600A6 /* GolfCourse.swift */,
+				A771D838253BB44200C600A6 /* Scorecard.swift */,
+				A771D842253BB7E000C600A6 /* CLLocationCoordinate2D+Codable.swift */,
+			);
+			path = "Model Objects";
+			sourceTree = "<group>";
+		};
+		A771D83E253BB60B00C600A6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A771D83B253BB53500C600A6 /* ResponseWrapper.swift */,
+				A771D83F253BB61D00C600A6 /* Networking.swift */,
+				A771D88B253BDD6C00C600A6 /* URLRequest+AWSSigning.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A771D84D253BBF6B00C600A6 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				A771D84E253BBFB400C600A6 /* NetworkingSecrets.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
+		A771D852253BC34700C600A6 /* Course Search */ = {
+			isa = PBXGroup;
+			children = (
+				A771D853253BC35800C600A6 /* CourseSearch.swift */,
+				A771D856253BC3F300C600A6 /* CourseSearchViewModel.swift */,
+			);
+			path = "Course Search";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +157,9 @@
 			dependencies = (
 			);
 			name = GolfTracker;
+			packageProductDependencies = (
+				A771D885253BD92F00C600A6 /* AWSSigner */,
+			);
 			productName = GolfTracker;
 			productReference = A771D819253B3D2100C600A6 /* GolfTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +187,9 @@
 				Base,
 			);
 			mainGroup = A771D810253B3D2100C600A6;
+			packageReferences = (
+				A771D884253BD92F00C600A6 /* XCRemoteSwiftPackageReference "aws-signer-v4" */,
+			);
 			productRefGroup = A771D81A253B3D2100C600A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +216,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A771D81F253B3D2100C600A6 /* ContentView.swift in Sources */,
+				A771D83C253BB53500C600A6 /* ResponseWrapper.swift in Sources */,
+				A771D857253BC3F300C600A6 /* CourseSearchViewModel.swift in Sources */,
+				A771D854253BC35800C600A6 /* CourseSearch.swift in Sources */,
+				A771D833253BB26700C600A6 /* GolfCourse.swift in Sources */,
+				A771D843253BB7E000C600A6 /* CLLocationCoordinate2D+Codable.swift in Sources */,
+				A771D839253BB44200C600A6 /* Scorecard.swift in Sources */,
+				A771D81F253B3D2100C600A6 /* StatsView.swift in Sources */,
+				A771D82F253B4C0300C600A6 /* StatsViewModel.swift in Sources */,
+				A771D84F253BBFB400C600A6 /* NetworkingSecrets.swift in Sources */,
 				A771D81D253B3D2100C600A6 /* GolfTrackerApp.swift in Sources */,
+				A771D840253BB61D00C600A6 /* Networking.swift in Sources */,
+				A771D88C253BDD6C00C600A6 /* URLRequest+AWSSigning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A771D884253BD92F00C600A6 /* XCRemoteSwiftPackageReference "aws-signer-v4" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adam-fowler/aws-signer-v4";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A771D885253BD92F00C600A6 /* AWSSigner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A771D884253BD92F00C600A6 /* XCRemoteSwiftPackageReference "aws-signer-v4" */;
+			productName = AWSSigner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A771D811253B3D2100C600A6 /* Project object */;
 }

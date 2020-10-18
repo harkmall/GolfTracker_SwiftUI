@@ -11,7 +11,11 @@ import SwiftUI
 struct GolfTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            let viewModel = StatsView.ViewModel()
+//            StatsView(viewModel: viewModel)
+
+            let viewModel = CourseSearch.ViewModel()
+            CourseSearch(viewModel: viewModel)
         }
     }
 }
