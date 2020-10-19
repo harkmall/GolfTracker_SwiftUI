@@ -17,13 +17,13 @@ struct CourseSearch: View {
 
     var body: some View {
         VStack {
+            TextField("Search for Golf Course", text: $viewModel.query)
+                .padding()
             List(viewModel.golfCourses) { golfCourse in
-                Text(golfCourse.name ?? "")
-            }
-            Button("Get Courses") {
-                self.viewModel.getCourses()
+                CourseCell(course: golfCourse)
             }
         }
+        .navigationBarTitle("Search")
     }
 }
 

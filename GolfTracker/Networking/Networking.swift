@@ -15,9 +15,11 @@ struct Networking {
         case signingFailed
     }
 
-    static func getCourses() -> AnyPublisher<[GolfCourse], Error> {
-        let url = URL(string:"https://api.golfbert.com/v1/courses")!
-        let urlRequest = URLRequest(url: url).signed
+    static func getCourses(query: String?) -> AnyPublisher<[GolfCourse], Error> {
+        let queryItems = [URLQueryItem(name: "name", value: query)]
+        var url = URLComponents(string:"https://api.golfbert.com/v1/courses")!
+        url.queryItems = queryItems
+        let urlRequest = URLRequest(url: url.url!).signed
 
         return URLSession.shared.dataTaskPublisher(for: urlRequest)
             .map(\.data)

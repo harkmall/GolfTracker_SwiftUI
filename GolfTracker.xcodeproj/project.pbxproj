@@ -22,6 +22,7 @@
 		A771D857253BC3F300C600A6 /* CourseSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D856253BC3F300C600A6 /* CourseSearchViewModel.swift */; };
 		A771D886253BD92F00C600A6 /* AWSSigner in Frameworks */ = {isa = PBXBuildFile; productRef = A771D885253BD92F00C600A6 /* AWSSigner */; };
 		A771D88C253BDD6C00C600A6 /* URLRequest+AWSSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D88B253BDD6C00C600A6 /* URLRequest+AWSSigning.swift */; };
+		A771D88F253D27AC00C600A6 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771D88E253D27AC00C600A6 /* CourseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		A771D853253BC35800C600A6 /* CourseSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSearch.swift; sourceTree = "<group>"; };
 		A771D856253BC3F300C600A6 /* CourseSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSearchViewModel.swift; sourceTree = "<group>"; };
 		A771D88B253BDD6C00C600A6 /* URLRequest+AWSSigning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+AWSSigning.swift"; sourceTree = "<group>"; };
+		A771D88E253D27AC00C600A6 /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				A771D853253BC35800C600A6 /* CourseSearch.swift */,
 				A771D856253BC3F300C600A6 /* CourseSearchViewModel.swift */,
+				A771D88E253D27AC00C600A6 /* CourseCell.swift */,
 			);
 			path = "Course Search";
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				A771D857253BC3F300C600A6 /* CourseSearchViewModel.swift in Sources */,
 				A771D854253BC35800C600A6 /* CourseSearch.swift in Sources */,
 				A771D833253BB26700C600A6 /* GolfCourse.swift in Sources */,
+				A771D88F253D27AC00C600A6 /* CourseCell.swift in Sources */,
 				A771D843253BB7E000C600A6 /* CLLocationCoordinate2D+Codable.swift in Sources */,
 				A771D839253BB44200C600A6 /* Scorecard.swift in Sources */,
 				A771D81F253B3D2100C600A6 /* StatsView.swift in Sources */,
